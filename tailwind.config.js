@@ -11,5 +11,8 @@ export default {
   plugins: [
     require('daisyui'),
   ],
+  daisyui: {
+    themes: ["light"], // Set the default theme to "light"
+  },
 }
 
